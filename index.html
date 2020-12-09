@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>String Section</title>
+</head>
+<section>
+    <nav>
+        <div class="title">
+            <h1>String Section</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="instruments.html">Instruments</a></li>
+            <li><a href="ode.html">Ode to Joy</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <section>
+            <div class="container">
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx"><img src="beethoven.jpg" alt="man" width="200px" height="200px"></div>
+                        <div class="contentBx">
+                            <h3>The String section of the Orchestra<br><span class="button"><a href="history.html">Begin</a></span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"),{
+		max: 25,
+        speed: 300,
+        glare: true,
+        "max-glare": 0.5,
+	});
+    </script>
+</body>
+</html>
